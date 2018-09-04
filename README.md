@@ -1,11 +1,9 @@
 # HI! My name is Melissa. 
 
-![Photo of a Heron](https://en.wikipedia.org/wiki/Grey_heron#/media/File:Graureiher_Grey_Heron.jpg)
+![Photo of a Heron](https://idfg.idaho.gov/species/sites/default/files/taxa/00728_orig.jpg)
 
 
 **Contact Info:**
-
-+[Email](melissapabst@gmail.com)
 
 +[My Website](http://codehunger.net)
 
