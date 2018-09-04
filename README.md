@@ -11,4 +11,4 @@
 
 +[LinkedIn](https://www.linkedin.com/in/melissapabst/)
 
-**_"A good quote is hard to come by -- Melissa"_**
+**_"A good quote is hard to come by" -- Melissa_**
