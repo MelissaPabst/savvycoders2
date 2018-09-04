@@ -1,0 +1,23 @@
+{
+  "name": "MelissaPabst",
+  "version": "1.0.0",
+  "description": "![Photo of a Heron](https://idfg.idaho.gov/species/sites/default/files/taxa/00728_orig.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelissaPabst/savvycoders2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelissaPabst/savvycoders2/issues"
+  },
+  "homepage": "https://github.com/MelissaPabst/savvycoders2#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  }
+}
