@@ -2,6 +2,10 @@
 
 ![Photo of a Heron](https://idfg.idaho.gov/species/sites/default/files/taxa/00728_orig.jpg)
 
+**Fun Fact About Me:**
+
+I like to travel out of the country. I've been to Spain, Mexico, Peru, Canada, Thailand, Malaysia, Singapore, and Costa Rica. 
+
 
 **Contact Info:**
 
