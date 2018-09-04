@@ -1,4 +1,4 @@
-#HI! My name is Melissa. 
+# HI! My name is Melissa. 
 
 ![Photo of a Heron](https://en.wikipedia.org/wiki/Grey_heron#/media/File:Graureiher_Grey_Heron.jpg)
 
@@ -13,4 +13,4 @@
 
 +[LinkedIn](https://www.linkedin.com/in/melissapabst/)
 
-*A good quote is hard to come by -- Melissa*
+**_"A good quote is hard to come by -- Melissa"_**
