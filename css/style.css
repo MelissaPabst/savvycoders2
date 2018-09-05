@@ -1,3 +1,26 @@
+/* Form */
+.form {
+    padding: 2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 1em;
+    
+}
+input[type="email"] {
+    width: 100%;
+    padding: 1em;
+    
+}
+textarea[name="user_message"]{
+    width: 100%;
+    padding: 1em;
+    
+}
+
 /* Blog */
 html {
     box-sizing: border-box;
@@ -27,7 +50,6 @@ p {
 #header {
     letter-spacing: .2em;
     text-align: center;
-    border: 5px black;
 }
 #navbar{
     text-decoration-color: darkcyan;
@@ -70,4 +92,6 @@ i {
 .big {
     font-size: 150%;
 }
+
+
 
