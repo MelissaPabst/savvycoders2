@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Melissa Pabst | Blog</title>
     <style>
+        /* * {
+            border: 1px solid red;
+        } */
+        html {
+            box-sizing: border-box;
+        }
         body {
             background-color: lightblue;
             font-size: 1em;
@@ -14,6 +20,8 @@
             font-family: 'Courier New', Courier, monospace;
             background-color: orchid;
             width: 50%;
+            padding: 5px 20px;
+            margin: 300px;
         }
         h1 {
             border-color: blueviolet;
@@ -29,6 +37,7 @@
         #header {
             letter-spacing: .2em;
             text-align: center;
+            border: 5px black;
         }
         #navbar{
             text-decoration-color: cornflowerblue;
@@ -43,24 +52,30 @@
         .highlight {
             font-weight:bold;
         }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
-    <div id="header">
-        <h1>Melissa Pabst | Blogging Again!</h1>
+    <div class="container" id="header">
+        <h1>Melissa Pabst:<br>Blogging Again!</h1>
         <img src="https://www.webnode.com/blog/wp-content/uploads/2016/10/Blog-intro.jpg">
     </div>
 
-    <div id="navbar">
+    <div class="container" id="navbar">
         <a href="../index.html">Home</a>
         <a href="../projects/index.html">Projects</a>
         <a href="../blog/index.html">Blog Home</a>
     </div>
-    <div id="content">
+
+    <div class="container" id="content">
         <h2>First Blog Post</h2>
         <p>I've been making web pages since <span class="highlight">1998</span>, and started blogging in <span class="highlight">2001</span>. Technically, this isn't my first blog post at all! Maybe my 1000th! I'm not keeping count.</p>
     </div>
-    <div id="footer">Melissa Pabst &copy;2018</div>
+
+    <div class="container" id="footer">Melissa Pabst &copy;2018</div>
     
 </body>
 </html>
