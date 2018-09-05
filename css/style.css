@@ -1,0 +1,73 @@
+/* Blog */
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+    font-size: 1em;
+}
+div {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orchid;
+    width: 50%;
+    padding: 5px 20px;
+    margin: 300px;
+}
+h1 {
+    border-color: blueviolet;
+    color:darkmagenta; 
+}
+h2 {
+    color:indigo;
+}
+p {
+    border:darksalmon;
+    color:darkmagenta;
+}
+#header {
+    letter-spacing: .2em;
+    text-align: center;
+    border: 5px black;
+}
+#navbar{
+    text-decoration-color: darkcyan;
+    text-align:center;
+}
+#content{
+    font-family:sans-serif;
+}
+#footer {
+    font-size: 0.7em;
+}
+.highlight {
+    font-weight:bold;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Landing Page */
+body {
+    background-color:lightblue
+}
+h1 {
+  font-family: verdana;
+}
+a {
+  color: rgb(87, 124, 180);
+}
+i {
+  font-size: 300%;
+}
+#primary {
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+.important {
+    color: palevioletred;
+}
+.big {
+    font-size: 150%;
+}
+
