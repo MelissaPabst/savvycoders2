@@ -65,11 +65,9 @@ body {
 div {
     font-family: 'Courier New', Courier, monospace;
     background-color: orchid;
-    /* width: 50%;
-    padding: 5px 20px;
-    margin: 300px; */
 }
 h1 {
+    font-family: 'Raleway', sans-serif;
     border-color: blueviolet;
     color:darkmagenta; 
 }
