@@ -1,5 +1,5 @@
 /* Form */
-.form {
+form {
     padding: 2em;
     max-width: 600px;
     margin: 0 auto;
@@ -60,6 +60,7 @@ p {
 }
 #footer {
     font-size: 0.7em;
+    text-align: center;
 }
 .highlight {
     font-weight:bold;
