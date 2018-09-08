@@ -61,6 +61,14 @@ html {
 body {
     background-color: lightblue;
     font-size: 1em;
+    display: grid;
+    grid-template-rows: min-content min-content auto min-content;
+    grid-template-areas:
+        "header"
+        "navbar"
+        "content"
+        "footer";
+    min-height: 100vh;
 }
 div {
     font-family: 'Courier New', Courier, monospace;
@@ -79,19 +87,24 @@ p {
     color:darkmagenta;
 }
 #header { 
+    grid-area: header;
     margin-top: 2em;
     letter-spacing: .2em;
     text-align: center;
 }
 
 #content{
+    grid-area: content;
     margin-top: 1em;
     font-family:sans-serif;  
 }
 #footer {
+    grid-area: footer;
     margin-top: 1em;
     font-size: 0.7em;
-    text-align: center;   
+    text-align: center;  
+    bottom: 0;
+    position: sticky; 
 }
 .highlight {
     font-weight:bold;
@@ -101,13 +114,14 @@ p {
     margin: 0 auto;
 }
 #navbar{
+    grid-area: navbar;
     text-decoration-color: darkcyan;
-    /* text-align:center; */
-    position: fixed;
+    /* position: fixed; */
+    position: sticky;
     top: 0;
-    left: 0;
-    height: auto;
-    width: 100vw;
+    /* left: 0;
+    height: auto; */
+    /* width: 100vw; */
 }
 #navbar > ul > li {
     position: relative;
@@ -156,5 +170,14 @@ i {
     font-size: 150%;
 }
 
-
+@media (min-width: 612px) {
+    body {
+      grid-template-columns: 10rem auto;
+      grid-template-rows: min-content auto min-content;
+      grid-template-areas:
+        "navbar header"
+        "navbar content"
+        "navbar footer"
+    }
+  }
 
