@@ -65,9 +65,9 @@ body {
 div {
     font-family: 'Courier New', Courier, monospace;
     background-color: orchid;
-    width: 50%;
+    /* width: 50%;
     padding: 5px 20px;
-    margin: 300px;
+    margin: 300px; */
 }
 h1 {
     border-color: blueviolet;
@@ -80,20 +80,20 @@ p {
     border:darksalmon;
     color:darkmagenta;
 }
-#header {
+#header { 
+    margin-top: 2em;
     letter-spacing: .2em;
     text-align: center;
 }
-#navbar{
-    text-decoration-color: darkcyan;
-    text-align:center;
-}
+
 #content{
-    font-family:sans-serif;
+    margin-top: 1em;
+    font-family:sans-serif;  
 }
 #footer {
+    margin-top: 1em;
     font-size: 0.7em;
-    text-align: center;
+    text-align: center;   
 }
 .highlight {
     font-weight:bold;
@@ -102,6 +102,37 @@ p {
     max-width: 960px;
     margin: 0 auto;
 }
+#navbar{
+    text-decoration-color: darkcyan;
+    /* text-align:center; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100vw;
+}
+#navbar > ul > li {
+    position: relative;
+    display: inline;
+    list-style: none;
+}
+#navbar .dropdown {
+    position: absolute;
+    top: 1em;
+    right: 0;
+    display: none;
+}
+#navbar a:hover + .dropdown {
+    display: block;
+}
+#navbar > ul.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
 
 /* Landing Page */
 body {

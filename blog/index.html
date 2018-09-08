@@ -6,70 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="text/css" rel="stylesheet" href="../css/style.css"/>
     <title>Melissa Pabst | Blog</title>
-    <!-- <style>
-        /* * {
-            border: 1px solid red;
-        } */
-        html {
-            box-sizing: border-box;
-        }
-        body {
-            background-color: lightblue;
-            font-size: 1em;
-        }
-        div {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: orchid;
-            width: 50%;
-            padding: 5px 20px;
-            margin: 300px;
-        }
-        h1 {
-            border-color: blueviolet;
-            color:darkmagenta; 
-        }
-        h2 {
-            color:indigo;
-        }
-        p {
-            border:darksalmon;
-            color:darkmagenta;
-        }
-        #header {
-            letter-spacing: .2em;
-            text-align: center;
-            border: 5px black;
-        }
-        #navbar{
-            text-decoration-color: cornflowerblue;
-            text-align:center;
-        }
-        #content{
-            font-family:sans-serif;
-        }
-        #footer {
-            font-size: 0.7em;
-        }
-        .highlight {
-            font-weight:bold;
-        }
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-        }
-    </style> -->
 </head>
 <body>
+    
     <div class="container" id="header">
         <h1>Melissa Pabst:<br>Blogging Again!</h1>
-        <!-- <img src="https://www.webnode.com/blog/wp-content/uploads/2016/10/Blog-intro.jpg"> -->
     </div>
 
     <div class="container" id="navbar">
-        <a href="../index.html">Home</a>
-        <a href="../projects">Projects</a>
-        <a href="../blog">Blog</a>
-        <a href="../contact">Contact</a>
+        <ul class="container">
+        <li><a href="../index.html">Home</a></li>
+        <li>
+            <a href="/projects">Projects</a>
+            <ul class="dropdown">
+                <li><a href="#">First Project</a></li>
+                <li><a href="#">Second Project</a></li>
+                <li><a href="#">Third Project</a></li>
+            </ul>
+        </li>           
+        <li><a href="../blog">Blog</a></li>
+        <li><a href="../contact">Contact</a></li>
+        </ul>
     </div>
 
     <div class="container" id="content">
